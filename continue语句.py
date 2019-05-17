@@ -1,0 +1,26 @@
+#!/usr/bin/python
+# -*- coding:utf-8 -*-
+
+'''
+continue语句
+作用：跳出当前循环中的剩余语句，然后继续下一次循环
+注意：跳过最近的循环
+'''
+'''
+for i in range(10):
+    print(i)
+    if i ==3:
+        continue
+    print('*')
+    
+'''
+
+num = 0
+while num <10:
+    print(num)
+    if num ==3:
+        num +=1
+        continue
+    print('*')
+    print('&')
+    num +=1
