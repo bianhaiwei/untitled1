@@ -3,7 +3,9 @@
 #左移动两位
 print(2 << 2)
 #0000010
-
+print (hello world)
+print (hello k8s)
+print (hello docker)
 #右移动两位
 print(13 >> 2)
 #000001101
